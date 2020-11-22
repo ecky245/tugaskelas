@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin: 0px;
+}
+
+.Header {
+	width: 100%;
+	height: 100px;
+	background-color: #DD5355;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+	border-bottom: 1px solid #DD5355;
+}
+
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 30px;
+	letter-spacing: 5px;
+}
+.secondary_header {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #B3B3B3;
+	clear: left;
+	display: flex;
+	justify-content: space-evenly;
+}
+.secondary_header ul li {
+	list-style: none;
+	float: left;
+	color:#FFFFFF;
+	margin-right: auto;
+	margin-top: 0px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 20%;
+	transition: all 0.3s linear;
+	text-decoration: none;
+	
+}
+
+.secondary_header ul li:hover {
+	color: #717070;
+	cursor: pointer;
+	
+}
+.secondary_header a{ 
+text-decoration: none;
+	color: #FFFFFF;
+}
+.secondary_header a:hover{
+	color: #717070;
+	cursor: pointer;
+}
